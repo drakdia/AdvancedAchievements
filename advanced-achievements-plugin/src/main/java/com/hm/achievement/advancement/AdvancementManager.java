@@ -250,7 +250,6 @@ public class AdvancementManager implements Reloadable {
 				: material.name().toLowerCase();
 		AchievementAdvancementBuilder builder = new AchievementAdvancementBuilder()
 				.iconItem(icon)
-				.title(achDisplayName)
 				.description(description)
 				.parent("advancedachievements:" + parentKey)
 				.type(lastAchievement ? AdvancementType.CHALLENGE : AdvancementType.TASK);
